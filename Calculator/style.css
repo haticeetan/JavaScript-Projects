@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 10px;
+}
+
+body
+{
+    font-size: 1.2rem;
+    
+}
+
+.calculator
+{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #17273D;
+}
+
+.calculator-input
+{
+    width: 100%;
+    font-size: 100px;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    background-color: #17273D;
+    color: #fff;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button
+{
+    height: 80px;
+    width: 80px;
+    background-color: #17273D;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: #3D5872;
+    font-size: 3rem;
+    color: #333;
+}
+
+button:hover
+{
+    background-color: #eaeaea;
+}
+
+.operator
+{
+    color: #252525;
+    background-color: #384358;
+}
+
+.clear
+{
+    background-color: #b7ada1;
+    border-color: #b7ada1;
+    color: #333
+}
+
+.clear:hover
+{
+    background-color: #fff;
+}
+
+.negatory
+{
+    background-color: #b7ada1;
+    border-color: #b7ada1;
+    color: #333
+}
+
+.negatory:hover
+{
+    background-color: #fff;
+}
+
+.percent
+{
+    background-color: #b7ada1;
+    border-color: #b7ada1;
+    color: #333
+}
+
+.percent:hover
+{
+    background-color: #fff;
+}
+
+.equal-sign
+{
+    background-color: #384358;
+    border-color: #384358;
+    color: #252525;
+    height: 100%;
+}
+.equal-sign:hover
+{
+    background-color: #fff;
+}
+.calculator-keys
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 17px;
+}
+
+.zero
+{
+    grid-area: 5/1/5/3;
+    border-radius: 40px;
+    height: 80px;
+    width: auto;
+}
